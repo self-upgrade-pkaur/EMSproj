@@ -19,6 +19,7 @@ steps:
 # 1- script : echo First step !
 
 # 2 dotnet build
-- script: dotnet build --configuration$(buildConfiguration)
-workingDirectory:$(pathtosolution)
-displayName:'dotnet build $(buildConfiguration)'
+- script: 
+    dotnet build --configuration$(buildConfiguration)
+  workingDirectory: $(pathtosolution)
+  displayName: 'dotnet build $(buildConfiguration)'
