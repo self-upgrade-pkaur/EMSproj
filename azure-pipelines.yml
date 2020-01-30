@@ -10,26 +10,15 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
+  pathtosolution: 'EMS/'
+  pathtoproject: 'EMS/EMS_Web'
+  pathtotest: 'EMS/Test'
   buildConfiguration: 'Release'
 
 steps:
-# - script : echo First step !
-- task: NuGetToolInstaller@1
+# 1- script : echo First step !
 
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '$(solution)'
-
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+# 2 dotnet build
+- script: dotnet build --configuration$(buildConfiguration)
+workingDirectory:$(pathtosolution)
+displayName:'dotnet build $(buildConfiguration)'
