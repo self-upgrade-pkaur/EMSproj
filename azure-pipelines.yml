@@ -1,0 +1,25 @@
+# ASP.NET
+# Build and test ASP.NET projects.
+# Add steps that publish symbols, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  pathtosolution: 'EMS/'
+  pathtoproject: 'EMS/EMS_Web'
+  pathtotest: 'EMS/Test'
+  buildConfiguration: 'Release'
+
+steps:
+# 1- script : echo First step !
+
+# 2 dotnet build
+- script: 
+    dotnet build --configuration$(buildConfiguration)
+  workingDirectory: $(pathtosolution)
+  displayName: 'dotnet build $(buildConfiguration)'
