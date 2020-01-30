@@ -13,6 +13,16 @@ namespace EmployeeLib
         public string Fname { get; set; }
         public string Lname { get; set; }
         public string Mname { get; set; }
+        public string FullName
+        {
+            get
+            {
+                if (Mname != null)
+                    return $"{Fname} {Mname} {Lname}";
+                else
+                    return $"{Fname} {Lname}";
+            }
+        }
         public Department department { get; set; }
     }
 }
