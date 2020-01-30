@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\02Sql\EMS_EF_Core_Demo\EmployeeLib\EmployeeLib.csproj" />
+    <ProjectReference Include="..\EmployeeLib\EmployeeLib.csproj" />
     <ProjectReference Include="..\EMS_Web\EMS_Web.csproj" />
   </ItemGroup>
 
