@@ -26,6 +26,7 @@ steps:
     projectKey: 'self-upgrade-pkaur_EMSproj'
     projectName: 'EMS proj'
     extraProperties: ''
+
 # 2 dotnet build
 - script: 
     dotnet build --configuration $(buildConfiguration)
