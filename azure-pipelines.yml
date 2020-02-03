@@ -20,6 +20,6 @@ steps:
 
 # 2 dotnet build
 - script: 
-    dotnet build --configuration$(buildConfiguration)
+    dotnet build --configuration $(buildConfiguration)
   workingDirectory: $(pathtosolution)
   displayName: 'dotnet build $(buildConfiguration)'
