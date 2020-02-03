@@ -18,8 +18,20 @@ variables:
 steps:
 # 1- script : echo First step !
 
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'emsproj'
+    organization: 'self-upgrade-pkaur'
+    scannerMode: 'MSBuild'
+    projectKey: 'self-upgrade-pkaur_EMSproj'
+    projectName: 'EMS proj'
+    extraProperties: ''
 # 2 dotnet build
 - script: 
     dotnet build --configuration $(buildConfiguration)
   workingDirectory: $(pathtosolution)
   displayName: 'dotnet build $(buildConfiguration)'
+- task: SonarCloudAnalyze@1
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
