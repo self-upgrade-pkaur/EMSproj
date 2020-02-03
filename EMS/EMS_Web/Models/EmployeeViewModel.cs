@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace EMS_Web.Models
 {
+    class CustomAttribute : ValidationAttribute { 
+        //
+    }
     public class EmployeeViewModel
     {
-        [Display(Name ="First Name"), Required(ErrorMessage ="First Name cannot be empty")]
+        [Display(Name ="First Name"), Required(ErrorMessage ="First Name cannot be empty"), Custom]
         public string Fname { get; set; }
         [Display(Name = "Last Name"), Required(ErrorMessage = "Last Name cannot be empty")]
         public string Lname { get; set; }

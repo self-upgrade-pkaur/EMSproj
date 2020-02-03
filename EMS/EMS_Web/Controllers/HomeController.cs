@@ -19,7 +19,6 @@ namespace EMS_Web.Controllers
         {
             _logger = logger;
         }
-
         public IActionResult Index()
         {
            //ViewBag.data = "Hello from Home";

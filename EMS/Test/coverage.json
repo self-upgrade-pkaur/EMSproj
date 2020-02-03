@@ -1,0 +1,2857 @@
+{
+  "EmployeeLib.dll": {
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EmployeeLib\\Department.cs": {
+      "EmployeeLib.Department": {
+        "System.Int32 EmployeeLib.Department::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String EmployeeLib.Department::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String EmployeeLib.Department::get_Phone()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EmployeeLib\\Employee.cs": {
+      "EmployeeLib.Employee": {
+        "System.Int32 EmployeeLib.Employee::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> EmployeeLib.Employee::get_Age()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> EmployeeLib.Employee::get_Startdate()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> EmployeeLib.Employee::get_Salary()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String EmployeeLib.Employee::get_Ssn()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> EmployeeLib.Employee::get_Deptid()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String EmployeeLib.Employee::get_Fname()": {
+          "Lines": {
+            "13": 3
+          },
+          "Branches": []
+        },
+        "System.String EmployeeLib.Employee::get_Lname()": {
+          "Lines": {
+            "14": 3
+          },
+          "Branches": []
+        },
+        "System.String EmployeeLib.Employee::get_Mname()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String EmployeeLib.Employee::get_FullName()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 0,
+            "23": 1,
+            "24": 1
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 12,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "EmployeeLib.Department EmployeeLib.Employee::get_department()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "EMS_Data.dll": {
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Data\\Mapper.cs": {
+      "EmployeeDataAccess.Mapper": {
+        "EmployeeLib.Employee EmployeeDataAccess.Mapper::Map(EMS_Data.Models.Employee)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "EMS_Data.Models.Employee EmployeeDataAccess.Mapper::Map(EmployeeLib.Employee)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "EmployeeLib.Department EmployeeDataAccess.Mapper::Map(EMS_Data.Models.Department)": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": []
+        },
+        "EMS_Data.Models.Department EmployeeDataAccess.Mapper::Map(EmployeeLib.Department)": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Data\\Respositories\\RepositoryEmployee.cs": {
+      "EMS_Data.Repository.RepositoryEmployee": {
+        "System.Void EMS_Data.Repository.RepositoryEmployee::AddEmployee(EmployeeLib.Employee)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 143,
+              "EndOffset": 145,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 143,
+              "EndOffset": 161,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 164,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.IEnumerable`1<EmployeeLib.Employee> EMS_Data.Repository.RepositoryEmployee::GetEmployees()": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "EmployeeLib.Employee EMS_Data.Repository.RepositoryEmployee::GetEmployeeById(System.Int32)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.Void EMS_Data.Repository.RepositoryEmployee::ModifyEmployee(EmployeeLib.Employee)": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 145,
+              "EndOffset": 150,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 145,
+              "EndOffset": 332,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void EMS_Data.Repository.RepositoryEmployee::RemoveEmployee(System.Int32)": {
+          "Lines": {
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "79": 0
+          },
+          "Branches": [
+            {
+              "Line": 69,
+              "Offset": 140,
+              "EndOffset": 142,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 140,
+              "EndOffset": 171,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void EMS_Data.Repository.RepositoryEmployee::.ctor()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void EMS_Data.Repository.RepositoryEmployee::.ctor(EMS_Data.Models.EmployeeDbContext)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Data\\Models\\Department.cs": {
+      "EMS_Data.Models.Department": {
+        "System.Int32 EMS_Data.Models.Department::get_Id()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Data.Models.Department::get_Name()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Data.Models.Department::get_Phone()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Data.Models.Department::get_Head()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<EMS_Data.Models.Employee> EMS_Data.Models.Department::get_Employee()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void EMS_Data.Models.Department::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Data\\Models\\Employee.cs": {
+      "EMS_Data.Models.Employee": {
+        "System.Int32 EMS_Data.Models.Employee::get_Id()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> EMS_Data.Models.Employee::get_Age()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> EMS_Data.Models.Employee::get_Startdate()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> EMS_Data.Models.Employee::get_Salary()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Data.Models.Employee::get_Ssn()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> EMS_Data.Models.Employee::get_Deptid()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Data.Models.Employee::get_Fname()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Data.Models.Employee::get_Lname()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Data.Models.Employee::get_Mname()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Data.Models.Employee::get_FullName()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 12,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "EMS_Data.Models.Department EMS_Data.Models.Employee::get_Dept()": {
+          "Lines": {
+            "49": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Data\\Models\\EmployeeDbContext.cs": {
+      "EMS_Data.Models.EmployeeDbContext": {
+        "System.Void EMS_Data.Models.EmployeeDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<EMS_Data.Models.Department> EMS_Data.Models.EmployeeDbContext::get_Department()": {
+          "Lines": {
+            "60": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<EMS_Data.Models.Employee> EMS_Data.Models.EmployeeDbContext::get_Employee()": {
+          "Lines": {
+            "61": 0
+          },
+          "Branches": []
+        },
+        "System.Void EMS_Data.Models.EmployeeDbContext::.ctor()": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Void EMS_Data.Models.EmployeeDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<EMS_Data.Models.EmployeeDbContext>)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Data\\Migrations\\20200129134540_test.cs": {
+      "EMS_Data.Migrations.test": {
+        "System.Void EMS_Data.Migrations.test::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 25,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 57,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 57,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 101,
+              "EndOffset": 103,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 101,
+              "EndOffset": 126,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 137,
+              "EndOffset": 139,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 137,
+              "EndOffset": 162,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void EMS_Data.Migrations.test::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Data\\Migrations\\20200129134540_test.Designer.cs": {
+      "EMS_Data.Migrations.test": {
+        "System.Void EMS_Data.Migrations.test::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "138": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 66,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 109,
+              "EndOffset": 111,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 109,
+              "EndOffset": 134,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 152,
+              "EndOffset": 177,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Data\\Migrations\\EmployeeDbContextModelSnapshot.cs": {
+      "EMS_Data.Migrations.EmployeeDbContextModelSnapshot": {
+        "System.Void EMS_Data.Migrations.EmployeeDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "136": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 66,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 109,
+              "EndOffset": 111,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 109,
+              "EndOffset": 134,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 152,
+              "EndOffset": 177,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "EMS_Web.dll": {
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Program.cs": {
+      "EMS_Web.Program": {
+        "System.Void EMS_Web.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder EMS_Web.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 12,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Startup.cs": {
+      "EMS_Web.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration EMS_Web.Startup::get_Configuration()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void EMS_Web.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "36": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 64,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void EMS_Web.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "72": 0,
+            "74": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0
+          },
+          "Branches": [
+            {
+              "Line": 58,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 78,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void EMS_Web.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Models\\EmployeeDepartmentViewModel.cs": {
+      "EMS_Web.Models.EmployeeDepartmentViewModel": {
+        "System.Int32 EMS_Web.Models.EmployeeDepartmentViewModel::get_Id()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Web.Models.EmployeeDepartmentViewModel::get_Name()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 EMS_Web.Models.EmployeeDepartmentViewModel::get_Age()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Web.Models.EmployeeDepartmentViewModel::get_DepartmentName()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Models\\EmployeeViewModel.cs": {
+      "EMS_Web.Models.EmployeeViewModel": {
+        "System.String EMS_Web.Models.EmployeeViewModel::get_Fname()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Web.Models.EmployeeViewModel::get_Lname()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Web.Models.EmployeeViewModel::get_Mname()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 EMS_Web.Models.EmployeeViewModel::get_Age()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal EMS_Web.Models.EmployeeViewModel::get_Salary()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Web.Models.EmployeeViewModel::get_Ssn()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> EMS_Web.Models.EmployeeViewModel::get_StartDate()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.String EMS_Web.Models.EmployeeViewModel::get_Department()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Models\\ErrorViewModel.cs": {
+      "EMS_Web.Models.ErrorViewModel": {
+        "System.String EMS_Web.Models.ErrorViewModel::get_RequestId()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean EMS_Web.Models.ErrorViewModel::get_ShowRequestId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Controllers\\EmployeeController.cs": {
+      "EMS_Web.Controllers.EmployeeController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult EMS_Web.Controllers.EmployeeController::Index()": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "49": 0,
+            "50": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 193,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 140,
+              "EndOffset": 142,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 140,
+              "EndOffset": 145,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 193,
+              "EndOffset": 198,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult EMS_Web.Controllers.EmployeeController::Details(System.Int32)": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 73,
+              "EndOffset": 75,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 73,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 106,
+              "EndOffset": 108,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 106,
+              "EndOffset": 115,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult EMS_Web.Controllers.EmployeeController::Create()": {
+          "Lines": {
+            "77": 0,
+            "78": 0,
+            "79": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult EMS_Web.Controllers.EmployeeController::Create(EMS_Web.Models.EmployeeViewModel,Microsoft.AspNetCore.Http.IFormCollection)": {
+          "Lines": {
+            "91": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "109": 0,
+            "111": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "120": 0
+          },
+          "Branches": [
+            {
+              "Line": 94,
+              "Offset": 15,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 94,
+              "Offset": 15,
+              "EndOffset": 168,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult EMS_Web.Controllers.EmployeeController::Edit(System.Int32)": {
+          "Lines": {
+            "124": 0,
+            "125": 0,
+            "126": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult EMS_Web.Controllers.EmployeeController::Edit(System.Int32,Microsoft.AspNetCore.Http.IFormCollection)": {
+          "Lines": {
+            "132": 0,
+            "134": 0,
+            "137": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "143": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult EMS_Web.Controllers.EmployeeController::Delete(System.Int32)": {
+          "Lines": {
+            "147": 0,
+            "148": 0,
+            "149": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult EMS_Web.Controllers.EmployeeController::Delete(System.Int32,Microsoft.AspNetCore.Http.IFormCollection)": {
+          "Lines": {
+            "155": 0,
+            "157": 0,
+            "160": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "166": 0
+          },
+          "Branches": []
+        },
+        "System.Void EMS_Web.Controllers.EmployeeController::.ctor(EmployeeLib.Abstractions.IRepositoryEmployee`1<EmployeeLib.Employee>)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Controllers\\HomeController.cs": {
+      "EMS_Web.Controllers.HomeController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult EMS_Web.Controllers.HomeController::Index()": {
+          "Lines": {
+            "23": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult EMS_Web.Controllers.HomeController::Privacy()": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult EMS_Web.Controllers.HomeController::Error()": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 14,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 26,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void EMS_Web.Controllers.HomeController::.ctor(Microsoft.Extensions.Logging.ILogger`1<EMS_Web.Controllers.HomeController>)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "EMS_Web.Views.dll": {
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Views\\Employee\\Create.cshtml": {
+      "AspNetCore.Views_Employee_Create/<ExecuteAsync>d__19": {
+        "System.Void AspNetCore.Views_Employee_Create/<ExecuteAsync>d__19::MoveNext()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 536,
+              "EndOffset": 538,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 536,
+              "EndOffset": 649,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1028,
+              "EndOffset": 1030,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1028,
+              "EndOffset": 1141,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Employee_Create/<<ExecuteAsync>b__19_0>d": {
+        "System.Void AspNetCore.Views_Employee_Create/<<ExecuteAsync>b__19_0>d::MoveNext()": {
+          "Lines": {
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 466,
+              "EndOffset": 468,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 466,
+              "EndOffset": 491,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 778,
+              "EndOffset": 780,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 778,
+              "EndOffset": 891,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 997,
+              "EndOffset": 999,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 997,
+              "EndOffset": 1022,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1395,
+              "EndOffset": 1397,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1395,
+              "EndOffset": 1508,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1614,
+              "EndOffset": 1616,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1614,
+              "EndOffset": 1639,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 2012,
+              "EndOffset": 2014,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 2012,
+              "EndOffset": 2125,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 2231,
+              "EndOffset": 2233,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 2231,
+              "EndOffset": 2256,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 2629,
+              "EndOffset": 2631,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 2629,
+              "EndOffset": 2742,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 2848,
+              "EndOffset": 2850,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 2848,
+              "EndOffset": 2873,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 3246,
+              "EndOffset": 3248,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 3246,
+              "EndOffset": 3360,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 3466,
+              "EndOffset": 3468,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 3466,
+              "EndOffset": 3491,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3865,
+              "EndOffset": 3867,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3865,
+              "EndOffset": 3979,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 4085,
+              "EndOffset": 4087,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 4085,
+              "EndOffset": 4110,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 4484,
+              "EndOffset": 4486,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 4484,
+              "EndOffset": 4598,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 4704,
+              "EndOffset": 4706,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 4704,
+              "EndOffset": 4729,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 5103,
+              "EndOffset": 5105,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 5103,
+              "EndOffset": 5217,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 5323,
+              "EndOffset": 5325,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 5323,
+              "EndOffset": 5348,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5722,
+              "EndOffset": 5724,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5722,
+              "EndOffset": 5836,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5942,
+              "EndOffset": 5944,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5942,
+              "EndOffset": 5967,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 6341,
+              "EndOffset": 6343,
+              "Path": 0,
+              "Ordinal": 38,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 6341,
+              "EndOffset": 6455,
+              "Path": 1,
+              "Ordinal": 39,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 6561,
+              "EndOffset": 6563,
+              "Path": 0,
+              "Ordinal": 40,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 6561,
+              "EndOffset": 6586,
+              "Path": 1,
+              "Ordinal": 41,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 6960,
+              "EndOffset": 6962,
+              "Path": 0,
+              "Ordinal": 42,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 6960,
+              "EndOffset": 7074,
+              "Path": 1,
+              "Ordinal": 43,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 7180,
+              "EndOffset": 7182,
+              "Path": 0,
+              "Ordinal": 44,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 7180,
+              "EndOffset": 7205,
+              "Path": 1,
+              "Ordinal": 45,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 7579,
+              "EndOffset": 7581,
+              "Path": 0,
+              "Ordinal": 46,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 7579,
+              "EndOffset": 7693,
+              "Path": 1,
+              "Ordinal": 47,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 7799,
+              "EndOffset": 7801,
+              "Path": 0,
+              "Ordinal": 48,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 7799,
+              "EndOffset": 7824,
+              "Path": 1,
+              "Ordinal": 49,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 8198,
+              "EndOffset": 8200,
+              "Path": 0,
+              "Ordinal": 50,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 8198,
+              "EndOffset": 8312,
+              "Path": 1,
+              "Ordinal": 51,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 8418,
+              "EndOffset": 8420,
+              "Path": 0,
+              "Ordinal": 52,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 8418,
+              "EndOffset": 8443,
+              "Path": 1,
+              "Ordinal": 53,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 8817,
+              "EndOffset": 8819,
+              "Path": 0,
+              "Ordinal": 54,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 8817,
+              "EndOffset": 8931,
+              "Path": 1,
+              "Ordinal": 55,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 9037,
+              "EndOffset": 9039,
+              "Path": 0,
+              "Ordinal": 56,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 9037,
+              "EndOffset": 9062,
+              "Path": 1,
+              "Ordinal": 57,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9436,
+              "EndOffset": 9438,
+              "Path": 0,
+              "Ordinal": 58,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9436,
+              "EndOffset": 9550,
+              "Path": 1,
+              "Ordinal": 59,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9656,
+              "EndOffset": 9658,
+              "Path": 0,
+              "Ordinal": 60,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9656,
+              "EndOffset": 9681,
+              "Path": 1,
+              "Ordinal": 61,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 10055,
+              "EndOffset": 10057,
+              "Path": 0,
+              "Ordinal": 62,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 10055,
+              "EndOffset": 10169,
+              "Path": 1,
+              "Ordinal": 63,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 10275,
+              "EndOffset": 10277,
+              "Path": 0,
+              "Ordinal": 64,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 10275,
+              "EndOffset": 10300,
+              "Path": 1,
+              "Ordinal": 65,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 10674,
+              "EndOffset": 10676,
+              "Path": 0,
+              "Ordinal": 66,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 10674,
+              "EndOffset": 10788,
+              "Path": 1,
+              "Ordinal": 67,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 10894,
+              "EndOffset": 10896,
+              "Path": 0,
+              "Ordinal": 68,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 10894,
+              "EndOffset": 10919,
+              "Path": 1,
+              "Ordinal": 69,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 11293,
+              "EndOffset": 11295,
+              "Path": 0,
+              "Ordinal": 70,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 11293,
+              "EndOffset": 11407,
+              "Path": 1,
+              "Ordinal": 71,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 11513,
+              "EndOffset": 11515,
+              "Path": 0,
+              "Ordinal": 72,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 11513,
+              "EndOffset": 11538,
+              "Path": 1,
+              "Ordinal": 73,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 11912,
+              "EndOffset": 11914,
+              "Path": 0,
+              "Ordinal": 74,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 11912,
+              "EndOffset": 12026,
+              "Path": 1,
+              "Ordinal": 75,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 12132,
+              "EndOffset": 12134,
+              "Path": 0,
+              "Ordinal": 76,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 12132,
+              "EndOffset": 12157,
+              "Path": 1,
+              "Ordinal": 77,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 12531,
+              "EndOffset": 12533,
+              "Path": 0,
+              "Ordinal": 78,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 12531,
+              "EndOffset": 12645,
+              "Path": 1,
+              "Ordinal": 79,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 12751,
+              "EndOffset": 12753,
+              "Path": 0,
+              "Ordinal": 80,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 12751,
+              "EndOffset": 12776,
+              "Path": 1,
+              "Ordinal": 81,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 13150,
+              "EndOffset": 13152,
+              "Path": 0,
+              "Ordinal": 82,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 13150,
+              "EndOffset": 13264,
+              "Path": 1,
+              "Ordinal": 83,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 13370,
+              "EndOffset": 13372,
+              "Path": 0,
+              "Ordinal": 84,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 13370,
+              "EndOffset": 13395,
+              "Path": 1,
+              "Ordinal": 85,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 13769,
+              "EndOffset": 13771,
+              "Path": 0,
+              "Ordinal": 86,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 13769,
+              "EndOffset": 13883,
+              "Path": 1,
+              "Ordinal": 87,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Employee_Create/<<ExecuteAsync>b__19_2>d": {
+        "System.Void AspNetCore.Views_Employee_Create/<<ExecuteAsync>b__19_2>d::MoveNext()": {
+          "Lines": {
+            "61": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Views\\Employee\\Details.cshtml": {
+      "AspNetCore.Views_Employee_Details/<ExecuteAsync>d__8": {
+        "System.Void AspNetCore.Views_Employee_Details/<ExecuteAsync>d__8::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "15": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "29": 0,
+            "32": 0,
+            "35": 0,
+            "38": 0,
+            "41": 0,
+            "44": 0,
+            "47": 0,
+            "50": 0,
+            "53": 0,
+            "56": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 161,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 161,
+              "EndOffset": 428,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 2002,
+              "EndOffset": 2004,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 14,
+              "EndOffset": 2078,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 2002,
+              "EndOffset": 2116,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Views\\Employee\\Index.cshtml": {
+      "AspNetCore.Views_Employee_Index/<ExecuteAsync>d__8": {
+        "System.Void AspNetCore.Views_Employee_Index/<ExecuteAsync>d__8::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "17": 0,
+            "20": 0,
+            "23": 0,
+            "26": 0,
+            "32": 0,
+            "35": 0,
+            "38": 0,
+            "41": 0,
+            "44": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "52": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 409,
+              "EndOffset": 411,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 14,
+              "EndOffset": 484,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 409,
+              "EndOffset": 522,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 1864,
+              "EndOffset": 1042,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 1864,
+              "EndOffset": 1869,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Views\\Home\\Index.cshtml": {
+      "AspNetCore.Views_Home_Index/<ExecuteAsync>d__0": {
+        "System.Void AspNetCore.Views_Home_Index/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0,
+            "9": 0
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 149,
+              "EndOffset": 153,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 149,
+              "EndOffset": 200,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Views\\Home\\Privacy.cshtml": {
+      "AspNetCore.Views_Home_Privacy/<ExecuteAsync>d__0": {
+        "System.Void AspNetCore.Views_Home_Privacy/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0,
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Views\\Shared\\Error.cshtml": {
+      "AspNetCore.Views_Shared_Error/<ExecuteAsync>d__0": {
+        "System.Void AspNetCore.Views_Shared_Error/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "9": 0,
+            "10": 0,
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Views\\Shared\\_Layout.cshtml": {
+      "AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__23_0>d": {
+        "System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__23_0>d::MoveNext()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": [
+            {
+              "Line": 6,
+              "Offset": 153,
+              "EndOffset": 155,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 153,
+              "EndOffset": 178,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 425,
+              "EndOffset": 427,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 425,
+              "EndOffset": 538,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 644,
+              "EndOffset": 646,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 644,
+              "EndOffset": 669,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 921,
+              "EndOffset": 923,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 921,
+              "EndOffset": 1034,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__23_1>d": {
+        "System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__23_1>d::MoveNext()": {
+          "Lines": {
+            "34": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 591,
+              "EndOffset": 593,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 591,
+              "EndOffset": 704,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 1213,
+              "EndOffset": 1215,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 1213,
+              "EndOffset": 1326,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 1835,
+              "EndOffset": 1837,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 1835,
+              "EndOffset": 1948,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 2475,
+              "EndOffset": 2477,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 2475,
+              "EndOffset": 2588,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 2694,
+              "EndOffset": 2696,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 2694,
+              "EndOffset": 2719,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 2949,
+              "EndOffset": 2951,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 2949,
+              "EndOffset": 3063,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3169,
+              "EndOffset": 3171,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3169,
+              "EndOffset": 3194,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3425,
+              "EndOffset": 3427,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3425,
+              "EndOffset": 3539,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3645,
+              "EndOffset": 3647,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3645,
+              "EndOffset": 3670,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 4050,
+              "EndOffset": 4052,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 4050,
+              "EndOffset": 4164,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Revature\\KaurContent\\EMSproj\\EMS\\EMS_Web\\Views\\_ViewStart.cshtml": {
+      "AspNetCore.Views__ViewStart/<ExecuteAsync>d__0": {
+        "System.Void AspNetCore.Views__ViewStart/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

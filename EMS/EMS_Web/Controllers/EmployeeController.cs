@@ -44,14 +44,16 @@ namespace EMS_Web.Controllers
                 emp.DepartmentName = item.department.Name;
                 evm.Add(emp);
             }
-            return View(evm);
+            // return View(evm);
+
+            TempData["Data"] = evm[0] as EmployeeDepartmentViewModel;
+            return RedirectToAction("TestModel", "Home");
             //return Json(new { 
             //Id=1,
             //Fname="Pushpinder",
             //Lname="Kaur"
             //});
         }
-
         // GET: Employee/Details/5
         public ActionResult Details([FromRoute]int id=1)
         {

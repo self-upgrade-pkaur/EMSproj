@@ -11,7 +11,7 @@ using EmployeeDataAccess;
 namespace EMS_Data.Repository
 {
         public class RepositoryEmployee : IRepositoryEmployee<EmployeeLib.Employee>
-    {
+             {
         EmployeeDbContext db;
         public RepositoryEmployee()
         {

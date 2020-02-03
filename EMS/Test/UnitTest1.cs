@@ -22,21 +22,21 @@ namespace Test
             // Assert -> checking the type of the repo
             Assert.AreEqual(typeof(List<EmployeeLib.Employee>), emp.GetType());
             }
-        [TestMethod]
-        public void GetEmployees_TypeofEmployees_WithRealData()
-        {
-            // Arrange
-            IRepositoryEmployee<EmployeeLib.Employee> realRepository = new RepositoryEmployee();
-            EmployeeController controller = new EmployeeController(realRepository);
-            var result = controller.Index() as ViewResult;
-            var modelType=result.Model.GetType();
-            Assert.AreEqual(typeof(IQueryable), modelType.GetType());
+        //[TestMethod]
+        //public void GetEmployees_TypeofEmployees_WithRealData()
+        //{
+        //    // Arrange
+        //    IRepositoryEmployee<EmployeeLib.Employee> realRepository = new RepositoryEmployee();
+        //    EmployeeController controller = new EmployeeController(realRepository);
+        //    var result = controller.Index() as ViewResult;
+        //    var modelType=result.Model.GetType();
+        //    Assert.AreEqual(typeof(IQueryable), modelType.GetType());
 
-            // Act
-            var emp = realRepository.GetEmployees();
-            // Assert -> checking the type of the repo
-            Assert.AreEqual(typeof(List<EmployeeLib.Employee>), emp.GetType());
-        }
+        //    // Act
+        //    var emp = realRepository.GetEmployees();
+        //    // Assert -> checking the type of the repo
+        //    Assert.AreEqual(typeof(List<EmployeeLib.Employee>), emp.GetType());
+        //}
         [TestMethod]
         public void GetEmployees_Fullname_WithMockData()
         {
