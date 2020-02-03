@@ -18,6 +18,7 @@ variables:
 steps:
 # 1- script : echo First step !
 
+#3 Sonar cloud 
 - task: SonarCloudPrepare@1
   inputs:
     SonarCloud: 'emsproj'
@@ -25,13 +26,28 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'self-upgrade-pkaur_EMSproj'
     projectName: 'EMS proj'
-    extraProperties: ''
+    extraProperties: |
+      sonar.cs.opencover.reportPaths="$(Build.ArtifactStagingDirectory)/coverage/*"
+      sonar.cs.vstest.reportPaths="$(Build.ArtifactStagingDirectory)/test/*.trx"
 
 # 2 dotnet build
 - script: 
     dotnet build --configuration $(buildConfiguration)
   workingDirectory: $(pathtosolution)
   displayName: 'dotnet build $(buildConfiguration)'
+
+# 4 Test with code MS build coverage
+- script: dotnet test
+    --configuration $(buildConfiguration)
+    --logger trx
+    --no-build
+    --results-directory $(Build.ArtifactStagingDirectory)/test/
+    /p:CollectCoverage=true
+    /p:CoverletOutputFormat=opencover
+    /p:CoverletOutput='$(Build.ArtifactStagingDirectory)/coverage/'
+  workingDirectory: $(pathtosolution)  
+  displayName: 'dotnet test'
+
 - task: SonarCloudAnalyze@1
 - task: SonarCloudPublish@1
   inputs:
